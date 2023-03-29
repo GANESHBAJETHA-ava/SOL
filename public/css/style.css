@@ -1,0 +1,282 @@
+body,
+.v-application {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+#game {
+	overflow-x: hidden !important;
+}
+.theme--light.v-input--is-disabled, .theme--light.v-input--is-disabled input, .theme--light.v-input--is-disabled textarea {
+	color: rgba(0,0,0,.58) !important;
+}
+.v-data-table>.v-data-table__wrapper>table>tbody>tr>td, .v-data-table>.v-data-table__wrapper>table>tfoot>tr>td, .v-data-table>.v-data-table__wrapper>table>thead>tr>td {
+	height: 38px !important;
+}
+.vuejs-countdown li:first-child,
+.vuejs-countdown .text {
+	display: none !important;
+}
+.vuejs-countdown .digit {
+	background-color: #EEE !important;
+    border-radius: 5px !important;
+    padding: 1px 8px !important;
+    font-size: 22px !important;
+}
+.vuejs-countdown li:after {
+	top: -5px !important;
+    right: -13px !important;
+    font-size: 26px !important;
+}
+.game-title {
+	font-weight: 500;
+	background-color: #F1F1F1;
+	padding: 6px;
+	text-align: center;
+	font-size: 20px;
+}
+.v-btn__content {
+	text-transform: capitalize;
+}
+.v-btn {
+	letter-spacing: 0 !important;
+}
+.v-btn-toggle:not(.v-btn-toggle--dense) .v-btn.v-btn.v-size--default {
+	height: 40px !important;
+}
+.contract-count-class {
+    max-width: 100px !important;
+    max-height: 36px !important;
+}
+.contract-count-class .v-input__control {
+	min-height: 36px !important;
+	height: 100% !important;
+}
+.contract-count-class input {
+	text-align: center;
+}
+.v-dialog {
+	border-radius: 8px !important;
+}
+.odds-block {
+	position: relative;
+}
+.odds-block img {
+	filter: drop-shadow(0px 0px 5px rgba(0,0,0, 0.8));
+}
+.odds-block button {
+	border-radius: 10px !important;
+}
+.bet-lock-overlay {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 1;
+}
+.bet-lock-overlay i {
+	position: relative !important;
+	transform: translateY(-50%);
+	display: block !important;
+	top: 50%;
+	text-align: center;
+	font-size: 30px !important;
+	color: #333 !important;
+}
+.details-block .v-card__title h5 {
+	margin: 0;
+}
+.details-block .v-card__title {
+	padding: 10px;
+	border-bottom: 2px solid #444 !important;
+}
+/*.v-application--is-ltr .v-data-footer__select {
+	display: none !important;
+	margin-right: 0 !important;
+}*/
+.v-application--is-ltr .v-data-footer__pagination {
+	margin-left: auto !important;
+	font-size: 15px !important;
+}
+.details-block .table {
+	margin: 0;
+}
+.details-block .table td {
+	padding-left: 0;
+}
+.details-block .v-expansion-panel.v-expansion-panel--active.v-item--active {
+	background-color: #F1F1F1 !important;
+}
+.details-block .v-expansion-panel-content__wrap {
+	padding-bottom: 0 !important;
+}
+.text-danger {
+	color: #f44336!important;
+}
+.text-success {
+	color: #4caf50 !important;
+}
+.text-warning {
+	color: #f39839 !important;
+}
+
+/* AMDIN  */
+.v-navigation-drawer {
+	max-height: 100% !important;
+}
+.admin-layout main {
+	padding: 0 !important;
+}
+.admin-layout .v-list .v-list-item--active, .v-list .v-list-item--active .v-icon {
+	color: #FFF;
+	background-color: rgba(255,255,255,0.1);
+}
+.admin-layout .v-list-group__items .v-list-item {
+	background-color: rgba(0,0,0,0.1) !important;
+}
+.admin-index-pages .v-card__title {
+	border-bottom: 1px solid #CCC;
+}
+.admin-index-pages .v-input__control {
+	height: 35px;
+	margin: 0;
+	padding: 0;
+}
+.admin-index-pages th,
+.admin-index-pages td {
+	white-space: nowrap;
+}
+.table > :not(:first-child) {
+	border-top: none;
+}
+.no-msg .v-messages {
+  display: none;
+}
+.admin-layout .v-chip {
+	border-radius: 4px !important;
+}
+.admin-layout .pagination-main-block {
+	border-top: 1px solid #CCC;
+}
+.balance-type-block h4 {
+	padding: 10px;
+	border-radius: 5px;
+	min-width: 170px;
+}
+.balance-type-block h4.active {
+	background-color: #EEE;
+}
+.one-block {
+	padding: 12px 15px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.users-main-records-block {
+	position: relative;
+}
+
+.carousel .change_outer {
+  height: 44px;
+  overflow: hidden;
+  box-shadow: inset 0 0 10px 10px whitesmoke;
+}
+
+.carousel .change_outer .element {
+  display: block;
+  margin: 10px 0;
+  font-size: 15px;
+  color: #555;
+}
+.carousel .change_outer .element i {
+	opacity: 0.5;
+}
+.main-game-card-block {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.main-game-card-block .card {
+	margin: 10px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.main-game-card-block .chip {
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	border-radius: 18px;
+	background-color: #f6f6f6;
+	margin-top: 5px;
+}
+.main-game-card-block h6 {
+	color: red;
+	font-size: 15px;
+	margin-top: 10px;
+
+}
+.main-game-card-block .card-body img {
+	max-width: 100px;
+}
+.my-card-block {
+	border-radius: 10px !important;
+	box-shadow: 0 10px 15px rgb(0 0 0 / 20%) !important;
+}
+.my-card-block .card-logo {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100px;
+  opacity: 0.5;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  right: 0;
+}
+.my-card-block .v-divider {
+	color: #222 !important;
+	border-color: #222 !important;
+	margin: 10px !important;
+}
+.dashboard-content-user .v-sheet.v-list {
+	padding: 0 !important;
+	background-color: #EEE !important;
+	border-radius: 10px !important;
+	overflow: hidden !important;
+}
+.bottom-nav .theme--light.v-btn--active:before, .bottom-nav .theme--light.v-btn--active:hover:before {
+	opacity: 0 !important;
+}
+.form-logo {
+	width: 300px;
+	background-color: #222 !important;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	position: relative;
+	right: 0;
+	left: 0;
+	padding: 20px 10px 5px;
+	box-shadow: 0 10px 20px rgb(0 0 0 / 30%);
+	color: #FFF;
+}
+.form-logo img {
+	margin-bottom: 10px;
+}
+.bottom-nav .v-btn__content {
+	gap: 3px;
+}
+.v-toolbar.v-sheet.success {
+	border-radius: 0 !important;
+}
+.v-tabs--fixed-tabs>.v-tabs-bar .v-tab {
+	font-weight: 700 !important;
+	letter-spacing: 0 !important;
+}
+.v-tabs-slider-wrapper {
+	height: 3.5px !important;
+}
+.v-item-group.v-bottom-navigation {
+	justify-content: space-around !important;
+}
+.get-otp {
+	background-color: #C8E6C9 !important;
+}
